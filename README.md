@@ -6,6 +6,8 @@ If you are looking for the AntiSplodge python package please visit: https://gith
 
 ![mouse_brain](https://github.com/HealthML/AntiSplodge_Turorial/blob/main/MouseBrain.png "MouseBrain.png")
 
+### Overview
+
 In this tutorial we are gonna demonstrate how to deconvolute the spatial transcriptomics (ST) spots of the adult mouse brain ([10X Adult Mouse Brain](https://support.10xgenomics.com/spatial-gene-expression/datasets/1.1.0/V1_Adult_Mouse_Brain)) utilizing scRNA profiles from the Allen Mouse Brain atlas ([Atlas page](https://portal.brain-map.org/atlases-and-data/rnaseq), [Dataset used](https://portal.brain-map.org/atlases-and-data/rnaseq/mouse-whole-cortex-and-hippocampus-smart-seq)) using the AntiSplodge python package. 
 
 The files needed are found in this repository, and is an exact copy of the datasets, but in numpy structured files for lowered computational requirements and memory usage.
@@ -17,6 +19,11 @@ This tutorial is split into four parts:
 - Part 3: Train the AntiSplode model
 - Part 4: Deconvolute the ST spots
 
+### Skipping directly to the AntiSplodge part (Part 3 and Part 4)
+
+### Usage
+
+Simply clone the directory to the destination where you intend to run the experiment and open [AntiSplodge_MouseBrain_Tutorial.ipynb](AntiSplodge_MouseBrain_Tutorial.ipynb) in your favorite python notebook IDE.
 ## Results
 
 In the end you should see an image with spots, like the one shown below. Please note that the scRNA dataset is based on mouse hippocampus and cortex layers, and therefore should used only to get predictions for those regions. If you want to deconvolute the rest of the mouse brain regions, you should look for a matching dataset. 
