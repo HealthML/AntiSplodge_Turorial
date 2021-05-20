@@ -20,6 +20,8 @@ This tutorial is split into four parts:
 - Part 4: Deconvolute the ST spots
 
 ### Skipping directly to the AntiSplodge part (Part 3 and Part 4)
+If you want to get directly to the AntiSplodge part, skip Part 1 and Part 2 and start directly from Part 3. You should still do the imports in Part 1. Doing the scRNA preprocessing will require some amounts of RAM memory. If you intend to do this, all you need is the notebook file (see below) and the files: [SingleCellDatasetOnlyMarkerGenes.h5ad](SingleCellDatasetOnlyMarkerGenes.h5ad) and [SpatialTranscriptomicsDatasetOnlyMarkerGenes.h5ad](SpatialTranscriptomicsDatasetOnlyMarkerGenes.h5ad). 
+
 
 ### Usage
 
