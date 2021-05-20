@@ -30,4 +30,10 @@ Simply clone the directory to the destination where you intend to run the experi
 
 In the end you should see an image with spots, like the one shown below. Please note that the scRNA dataset is based on mouse hippocampus and cortex layers, and therefore should used only to get predictions for those regions. If you want to deconvolute the rest of the mouse brain regions, you should look for a matching dataset. 
 
+You should see a image very similar to that of the publication and the one listed below. Notice how the predicted spots are differentiable in the mouse hippocampus, this is exactly what, as the SC dataset is from this particular area. Additinoally, the markers are not as profound as in the paper, this would be better if you increased training time and the number of training/validation samples used.
+
 ![mouse_brain](https://github.com/HealthML/AntiSplodge_Turorial/blob/main/showMouseBrainPredictions.png "MouseBrainPredictions.png")
+
+## References
+
+Paper is comming.
