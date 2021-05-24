@@ -1,6 +1,6 @@
 # AntiSplodge Turorial 
 
-If you are looking for the AntiSplodge python package please visit: https://github.com/HealthML/AntiSplodge/
+If you are looking for the AntiSplodge python package, or additional information about AntiSplodge, please visit: https://github.com/HealthML/AntiSplodge/
 
 ## Deconvolution of a 10X processed Mouse Brain
 
